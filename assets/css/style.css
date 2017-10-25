@@ -1,5 +1,5 @@
 body{
-	background-image: ("assets/images/van.png");
+	background-image: url("/assets/images/van.png");
 	background-color: black;
 }
 
@@ -18,8 +18,12 @@ body{
 	width:203px;
 	border:solid;
 	border-width: 5px;
+	border-color:gray;
 	background-color:orange;
 	clear:both;
+}
+#heroImage:hover{
+
 }
 
 #heroTwo{
@@ -28,7 +32,6 @@ body{
 }
 #hero2Title{
 	clear:both;
-	margin-top: 60px;
 	text-align:center;
 	width:213px;
 	background-color: red;
@@ -38,6 +41,7 @@ body{
 	width:203px;
 	border:solid;
 	border-width: 5px;
+	border-color:gray;
 	background-color:purple;
 	clear:both;
 }
@@ -47,7 +51,6 @@ body{
 	float:left;
 }
 #hero3Title{
-	margin-top: 60px;
 	text-align:center;
 	width:213px;
 	background-color: red;
@@ -57,6 +60,7 @@ body{
 	width:203px;
 	border:solid;
 	border-width: 5px;
+	border-color:gray;
 	background-color:green;
 	clear:both;
 }
@@ -66,7 +70,6 @@ body{
 	float:left;
 }
 #hero4Title{
-	margin-top: 60px;
 	text-align:center;
 	width:213px;
 	background-color: red;
@@ -76,6 +79,7 @@ body{
 	width:203px;
 	border:solid;
 	border-width: 5px;
+	border-color:gray;
 	background-color:purple;
 	clear:both;
 }
@@ -94,10 +98,19 @@ body{
 	width:203px;
 	border:solid;
 	border-width: 5px;
+	border-color:gray;
 	background-color:orange;
 	clear:both;
 }
 #characterSelect{
 	text-align:center;
 	background-color:gray;
+}
+#container{
+	width: 1120px;
+	height: 800px;
+	border:solid;
+	border-width:5px;
+	border-color: gray;
+	background-color:#e0e0eb;
 }
