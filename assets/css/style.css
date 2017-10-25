@@ -112,7 +112,7 @@ body{
 }
 #container{
 	width: 1120px;
-	height: 900px;
+	height: 1200px;
 	border:solid;
 	border-width:5px;
 	border-color: #2C2C2C;
@@ -133,4 +133,12 @@ body{
 
 #heroes{
 	width:100%;
+}
+#gameTitle{
+	text-align: center;
+}
+#titleImage{
+	margin-top:25px;
+	resize:both;
+	width:1020px;
 }
