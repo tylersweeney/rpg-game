@@ -1,10 +1,16 @@
-#herOne{
-	float: left;
+body{
+	background-image: ("assets/images/van.png");
+	background-color: black;
+}
+
+#heroOne{
+	margin:5px;
+	float:left;
 }
 
 #heroTitle{
 	text-align:center;
-	width:203px;
+	width:213px;
 	background-color: #1aa3ff;
 }
 
@@ -12,19 +18,86 @@
 	width:203px;
 	border:solid;
 	border-width: 5px;
+	background-color:orange;
+	clear:both;
 }
 
 #heroTwo{
+	margin:5px;
 	float:left;
 }
 #hero2Title{
+	clear:both;
+	margin-top: 60px;
 	text-align:center;
-	width:203px;
+	width:213px;
 	background-color: red;
 }
 
-#hero2Images{
+#hero2Image{
 	width:203px;
 	border:solid;
 	border-width: 5px;
+	background-color:purple;
+	clear:both;
+}
+
+#heroThree{
+	margin:5px;
+	float:left;
+}
+#hero3Title{
+	margin-top: 60px;
+	text-align:center;
+	width:213px;
+	background-color: red;
+}
+
+#hero3Image{
+	width:203px;
+	border:solid;
+	border-width: 5px;
+	background-color:green;
+	clear:both;
+}
+
+#heroFour{
+	margin:5px;
+	float:left;
+}
+#hero4Title{
+	margin-top: 60px;
+	text-align:center;
+	width:213px;
+	background-color: red;
+}
+
+#hero4Image{
+	width:203px;
+	border:solid;
+	border-width: 5px;
+	background-color:purple;
+	clear:both;
+}
+
+#heroFive{
+	margin:5px;
+	float:left;
+}
+#hero5Title{
+	text-align:center;
+	width:213px;
+	background-color: #1aa3ff;
+}
+
+#hero5Image{
+	width:203px;
+	border:solid;
+	border-width: 5px;
+	background-color:orange;
+	clear:both;
+}
+#characterSelect{
+	text-align:center;
+	background-color:gray;
 }
