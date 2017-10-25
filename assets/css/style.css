@@ -17,8 +17,8 @@ body{
 #heroImage{
 	width:203px;
 	border:solid;
-	border-width: 5px;
-	border-color:gray;
+	border-width: 2px;
+	border-color:#2C2C2C;
 	background-color:orange;
 	clear:both;
 }
@@ -40,8 +40,8 @@ body{
 #hero2Image{
 	width:203px;
 	border:solid;
-	border-width: 5px;
-	border-color:gray;
+	border-width: 2px;
+	border-color:#2C2C2C;
 	background-color:purple;
 	clear:both;
 }
@@ -59,8 +59,8 @@ body{
 #hero3Image{
 	width:203px;
 	border:solid;
-	border-width: 5px;
-	border-color:gray;
+	border-width: 2px;
+	border-color:#2C2C2C;
 	background-color:green;
 	clear:both;
 }
@@ -78,8 +78,8 @@ body{
 #hero4Image{
 	width:203px;
 	border:solid;
-	border-width: 5px;
-	border-color:gray;
+	border-width: 2px;
+	border-color:#2C2C2C;
 	background-color:purple;
 	clear:both;
 }
@@ -97,20 +97,40 @@ body{
 #hero5Image{
 	width:203px;
 	border:solid;
-	border-width: 5px;
-	border-color:gray;
+	border-width: 2px;
+	border-color:#2C2C2C;
 	background-color:orange;
-	clear:both;
+	clear:left;
 }
 #characterSelect{
+	margin:25px;
 	text-align:center;
 	background-color:gray;
+	border:solid;
+	border-width:2px;
+	border-color:#2C2C2C;
 }
 #container{
 	width: 1120px;
-	height: 800px;
+	height: 900px;
 	border:solid;
 	border-width:5px;
-	border-color: gray;
-	background-color:#e0e0eb;
+	border-color: #2C2C2C;
+	background-color:#8E8C8B;
+}
+#radarPanel{
+	clear:left;
+	height: 200px;
+	position:inline;
+	margin:25px;
+	border:solid;
+	border-width:2px;
+	border-color:#2C2C2C;
+}
+#radar{
+	padding:20px;
+}
+
+#heroes{
+	width:100%;
 }
