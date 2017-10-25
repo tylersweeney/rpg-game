@@ -1,0 +1,30 @@
+#herOne{
+	float: left;
+}
+
+#heroTitle{
+	text-align:center;
+	width:203px;
+	background-color: #1aa3ff;
+}
+
+#heroImage{
+	width:203px;
+	border:solid;
+	border-width: 5px;
+}
+
+#heroTwo{
+	float:left;
+}
+#hero2Title{
+	text-align:center;
+	width:203px;
+	background-color: red;
+}
+
+#hero2Images{
+	width:203px;
+	border:solid;
+	border-width: 5px;
+}
